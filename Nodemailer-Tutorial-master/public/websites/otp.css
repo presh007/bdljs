@@ -1,0 +1,19 @@
+.para4 {
+    margin-right: 30px !important;
+    font-size: 1.4rem !important;
+}
+
+.para2 {
+    transform: translateX(11px);
+}
+
+.authp {
+    margin-right: -60px;
+}
+
+.lastp2 {
+    color: #60269E !important;
+    font-weight: 500;
+    font-size: 1.4rem !important;
+    transform: translateX(7px);
+}

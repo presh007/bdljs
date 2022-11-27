@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+}
+
+html {
+    font-size: 72%;
+    min-width: 350px !important;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.logo {
+    padding-top: 5rem !important;
+}
+
+.paragraph-2 {
+    font-size: 13.4px !important;
+}
+
+form {
+    position: relative;
+    padding: 8px !important;
+    align-items: center;
+    min-width: 350px !important;
+}
+
+form h2 {
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+    margin-top: 1.06rem;
+    line-height: 2rem;
+}
+
+form input {
+    border-radius: 2.2rem;
+    width: 100% !important;
+}
+
+.iti--separate-dial-code .iti__selected-flag {
+    background: transparent;
+    position: relative;
+}
+
+.iti--separate-dial-code .iti__selected-flag::before {
+    font-family: 'boxicons';
+    top: 0;
+    font-size: 20px !important;
+    content: "\ea4a";
+    transform: translateX(53px);
+    margin-right: 12px;
+}
+
+.iti--separate-dial-code .iti__selected-flag:hover {
+    background: transparent !important;
+}
+
+.intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-4 .selected-flag {
+    width: 100px;
+    display: flex;
+    padding-left: 20px !important;
+}
+
+.intl-tel-input.allow-dropdown.separate-dial-code .selected-dial-code {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.myform input[type="tel"] {
+    height: 43px !important;
+    font-size: 13.4px;
+    transition: .1s ease-in;
+}
+
+.iti--separate-dial-code .iti__selected-dial-code {
+    margin-left: 32px;
+    margin-right: 4px;
+    font-size: 13.3px;
+    margin-top: 2px;
+}
+
+.inputt {
+    padding-left: 140px !important;
+}
+
+.intl-tel-input.allow-dropdown.separate-dial-code .selected-dial-code {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.myform input[type="tel"]:focus {
+    border: 1.89px solid #60269E;
+}
+
+.query {
+    float: right;
+    position: absolute;
+    color: #000;
+    margin-bottom: 10px !important;
+    transform: translateX(50px);
+}
+
+.query:hover {
+    color: #000 !important;
+}
+
+.cbtn {
+    align-items: center;
+}
+
+.cbtn button {
+    height: 43.2px;
+    border-radius: 2.2rem;
+    outline: none;
+    color: #fff;
+    border: 1px solid #60269E;
+    background: #60269E;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 100%;
+    max-width: 378px;
+}
+
+.bt-img {
+    margin-top: 215px !important;
+    margin-bottom: 30px;
+}
+
+.bt-img img {
+    height: 45px;
+}
+
+.myform input[type="tel"] {
+    caret-color: #60269E !important;
+}
+
+.iti__arrow {
+    display: none;
+}
